@@ -1,0 +1,14 @@
+{
+  "name": "rap-quotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "wds --watch"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "0.1.21"
+  }
+}
