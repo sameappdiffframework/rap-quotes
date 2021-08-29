@@ -41,6 +41,9 @@ button:hover:enabled, button:active:enabled {
     border-color: var(--secondary-accent);
 }
 
+ul {
+    padding: 0;
+}
 .hidden {
     display: none;
 }
@@ -65,7 +68,6 @@ header a:hover {
 nav > ul {
     display: flex;
     justify-content: space-around;
-    list-style: none;
 }
 
 nav > ul > li {
@@ -157,9 +159,8 @@ footer p {
     margin: 0;
 }
 
-footer ul, ul.no-bullets {
+nav > ul, footer ul, ul.no-bullets {
     list-style: none;
-    padding: 0;
 }
 
 .overlay {
